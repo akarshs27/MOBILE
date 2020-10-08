@@ -1,0 +1,313 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'PT Sans', sans-serif !important; */
+}
+
+    .progress {
+        background: linear-gradient(to right, #F9EC31 var(--scroll), transparent 0);
+        background-repeat: no-repeat;
+        position: fixed;
+        width: 100%;
+        height: 4px;
+        z-index: 1;
+    }
+
+    header {
+        height: 40rem;
+        background-image: linear-gradient(to right, #33b0ed , #00dae8 );
+        clip-path: polygon(50% 100%, 100% 78%, 100% 0, 0 0, 0 78%);
+
+    }
+
+    .navcontainer {
+        padding-top: 1rem;
+    }
+    .navbar {
+        margin:0 3rem 0 3rem !important;
+    }
+
+    .navbar-brand {
+        color: white !important;
+        font-size: 1.2rem !important;
+    }
+
+    .nav-link {
+        color: white !important;
+        font-weight: 400 !important;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        padding-left: 1.2rem !important;
+        padding-right: 1.2rem !important;
+    }
+
+    .nav-link::before {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color:white;
+    }
+
+    .nav-link-ltr::before {
+    width: 0%;
+    bottom: 2px;
+    }
+
+    .nav-link-ltr:hover::before {
+    width: 60%;
+    }
+
+    .landing-heading {
+        margin-left: 4.2rem;
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+    }
+    
+    .textwhite {
+        color: white;
+    }
+
+   .heading {
+    color: white;
+    margin-bottom: 1.5rem;
+   }
+
+   .paragraph {
+       color: white;
+       font-size: 1rem;
+       text-align: justify;
+       text-justify: inter-word;
+   }
+
+   .button-spacing {
+       margin-top: 1.8rem;
+   }
+
+   .phone-im {
+       margin-top: 4rem;
+       width: 65%;
+       height:65%;
+       border-radius: 1rem;
+   }
+
+   .googleplay,.appstore {
+       margin-right: 0.8rem;
+       background-color: white;
+       color: #33b0ed;
+       border-radius: 1.75rem;
+   }
+
+    .googleplay:hover,.appstore:hover {
+        color:#33b0ed;
+        box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.15);
+    }
+
+    .about-info  {
+        margin-left: 10rem;
+        margin-top: 0.8rem;
+    }
+
+    .aboutpara {
+        padding-left: 4rem;
+        border-left: 0.1rem solid lightslategrey;
+    }
+
+    .icon {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        transition: all .2s;
+      }
+
+    .icon-placement {
+          font-size: 3rem;
+      }
+
+    .card-para {
+          font-size: 0.9rem;
+      }
+
+    .upper-gradient {
+        height: 8rem;
+        background-image: linear-gradient(to right, #33b0ed , #00dae8 );
+        clip-path: polygon(100% 5%, 0% 100%, 100% 100%);
+
+    }
+
+    .mid-gradient {
+        min-height: 50rem;
+        background-image: linear-gradient(to right, #33b0ed , #00dae8 );
+    }
+
+    .featureinfo{
+        color: white;
+        margin-left: 10rem;
+    }
+    .featurepara{
+        color: white;
+        padding-left: 4rem;
+        border-left: 0.1rem solid white;
+    }
+
+        .phone-mid {
+            width: 70%;
+        }
+
+        .box1, .box3 {
+            height: 27rem;
+        }
+
+        .box2 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .paragraphblock {
+            font-size: 0.8rem;
+        }
+
+        .headingblock {
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        .endalign {
+            text-align: right;
+        }
+
+        .icons-features {
+            display: flex;
+            align-items: center;
+        }
+
+        .lower-gradient {
+            clip-path: polygon(100% 0, 0 0, 0 95%);
+            height: 8rem;
+            background-image: linear-gradient(to right, #33b0ed , #00dae8 );
+        }
+
+        .whticons {
+            margin-right: 1rem;
+        }
+
+        .progressgradient {
+            min-height: 10rem;
+            background-image: linear-gradient(to right, #33b0ed , #00dae8 );
+        }
+
+        .iconalignment {
+            margin-left: 7rem;
+            margin-right: 7rem;
+        }
+
+        .progressicon {
+            margin-top: 1.5rem;
+        }
+
+        .progressicons {
+            margin-bottom: 1rem;
+        }
+
+        .progressiconsalign {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gettheapp {
+            background-color: #EEF3F7;
+            min-height: 15rem;
+        }
+
+        .playstore {
+            margin-right: 2rem;
+            background-color: #33b0ed;
+            color: white;
+        }
+
+        .appstorenew {
+            background-color: #33b0ed;
+            color: white;
+        }
+
+        .playstore:hover, .appstorenew:hover{
+            color: white;
+        }
+
+        .storeicon {
+            margin-right: 0.5rem;
+        }
+
+        .contactus {
+            background-image: linear-gradient(to right, #33b0ed , #00dae8 );
+            height: 45rem;
+        }
+
+        .contactusmodal {
+            width: 55rem;
+        }
+
+        .address-para {
+            font-size: 0.8rem;
+            padding-bottom: 1rem;
+            margin-left: 2.3rem;
+        }
+
+        .formpart {
+            border-left: 1px solid lightgrey;
+            padding-left: 3rem;
+        }
+
+
+        @media screen and (max-width: 768px){
+            header {
+                height: 60rem;
+                background-image: linear-gradient(to right, #33b0ed , #00dae8 );
+                clip-path: polygon(50% 100%, 100% 78%, 100% 0, 0 0, 0 78%);
+            }
+
+            .phone-im {
+                margin-top: 3rem;
+                width: 55%;
+                height:65%;
+                border-radius: 1rem;
+                margin-left:7rem;
+            }
+
+            .phone-mid {
+                width: 40%;
+                margin-top: 4rem;
+                margin-bottom: 2rem;
+            }
+
+            .mid-gradient {
+                height: 110rem;
+                background-image: linear-gradient(to right, #33b0ed , #00dae8 );
+            }
+
+            .contactus {
+                background-image: linear-gradient(to right, #33b0ed , #00dae8 );
+                height: 80rem;
+            }
+
+        }
+
+        @media screen and (max-width: 990px){
+
+            .about-info {
+                margin-left: 5rem;
+                margin-top: 0.8rem;
+                }
+
+            .featureinfo{
+                color: white;
+                margin-left: 10rem;
+                }
+            }
